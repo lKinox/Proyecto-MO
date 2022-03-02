@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF !important;
+}
+
+/** NAVBAR */
+
+.navbar {
+    background-color: transparent;
+    margin-top: 1cm;
+    margin-left: 1.2cm;
+    margin-right: 1.2cm;
+}
+
+a {
+    color: rgb(196, 196, 196);
+}
+
+a:hover {
+    color: rgb(136, 136, 136) !important;
+}
+
+.buttomNav {
+    font-family: Barlow;
+    font-size: 15pt;
+    letter-spacing: 3px;
+    color: #FFF;
+    background-color: transparent;
+    margin-left: 0.5cm;
+    padding-top: 0.1px !important;
+    padding-bottom: 0.1px !important;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 35px;
+}
+
+.buttomNav2 {
+    font-family: Barlow;
+    font-size: 15pt;
+    letter-spacing: 3px;
+    color: #000;
+    background-color: transparent;
+    margin-left: 0.5cm;
+    padding-top: 0.1px !important;
+    padding-bottom: 0.1px !important;
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 35px;
+}
+
+.container1 {
+    border-bottom-style: solid;
+    border-bottom-color: rgb(136, 136, 136);
+    border-width: 4px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    padding-bottom: 0.8cm;
+}
+
+.container2 {
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-width: 4px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    padding-bottom: 0.8cm;
+}
+
+/** HOME */
+
+.img1 {
+    width: 100%;
+    display: flex;
+    z-index: 0;
+    position: relative;
+}
+
+.home1 {
+    z-index: 1;
+    position: absolute;
+    margin-left: 2cm !important;
+    margin-top: -30px;
+    align-items: center;
+    display: flex;
+    height: 750px;
+    overflow: hidden;
+    flex-basis: 50%;
+}
+
+
+.text1 {
+    font-family: Barlow;
+    font-style: Medium !important;
+    font-size: 53.3pt;
+    color: #FFF;
+    display: flex;
+    padding-top: 80px;
+    line-height: 70px;
+}
+
+.text2 {
+    font-family: Barlow;
+    font-size: 60pt;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: #9308b6;
+    display: flex;
+    line-height: 68px; 
+    margin-left: 0.5cm;
+}
+
+.buttomHome {
+    font-family: Barlow;
+    font-size: 20pt;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: linear-gradient(90deg, rgba(72,2,74,0.8) 0%, rgba(72,74,35,0.8) 100%);
+    border-radius: 35px;
+    margin-left: 0.3cm;
+    margin-top: 100px !important;
+    text-shadow: 50px;
+}
+
+
+
+/** INFO1 */
+
+.info1 {
+    height: 750px;
+}
