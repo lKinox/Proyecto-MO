@@ -18,7 +18,7 @@
     <nav class="navbar navbar-light fixed-top">
       <div id="container" class="container container1">
         <a class="navbar-brand" href="index.html">
-          <img id="logo" src="img\Logo1.png" alt="">
+          <img id="logo" src="" alt="">
         </a>
         <ul class="nav justify-content-end">
           <li class="nav-item">
@@ -54,17 +54,34 @@
 
     <!-- INFO1 -->
 
-    <div class="info1">
-    
+    <div>
+      <div class="info1">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 textInfo1 infoEsp1">Probablemente quisiste impulsar tu</div>
+            <div class="col-12 textInfo1">marca y no conseguiste los resultados esperados...</div>
+            <div class="col-12 textInfo2 infoEsp2">No te preocupes, es parte del proceso</div>
+            <div class="col-12 textInfo2">y hay muchos casos como el tuyo.</div>
+          </div>
+        </div>
+        <img src="img\info1.png" alt="" class="imgInfo1">
+      </div>
     </div>
 
+    <!-- NOSOTROS -->
+
+    <div>
+      <img src="img\nosotros1.png" alt="" class="imgNosotros1">
+    </div>
+
+    <!-- SCRIPT -->
     <script src="js/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
       $(window).scroll(function() {
         if ($("#menu1").offset().top > 750) {
-            $("#menu1").addClass("buttomNav2");
+            $("#menu1").addClass("buttomNav2"); 
         } 
         else {
             $("#menu1").removeClass("buttomNav2");
@@ -85,7 +102,7 @@
       $(window).scroll(function() {
         if ($("#menu3").offset().top > 750) {
             $("#menu3").addClass("buttomNav2");
-        } 
+        }
         else {
             $("#menu3").removeClass("buttomNav2");
         }
@@ -103,9 +120,9 @@
     </script>
     <script>
       $(window).scroll(function() {
-        if ($("#container").offset().top > 750) {
+        if ($("#container").offset().top > 695.5) {
             $("#container").addClass("container2");
-        } 
+        }
         else {
             $("#container").removeClass("container2");
         }
