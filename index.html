@@ -65,12 +65,23 @@
           </div>
         </div>
         <img src="img\info1.png" alt="" class="imgInfo1">
+        <img src="img\info2.png" alt="" class="imgInfo2">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 textInfo3">Entendemos cómo te sientes y queremos ayudarte</div>
+            <div class="col-12 bar1 mx-auto"></div>
+            <div class="col-12 mx-auto"></div>
+          </div>
+        </div>
       </div>
     </div>
 
     <!-- NOSOTROS -->
 
     <div>
+      <div>
+
+      </div>
       <img src="img\nosotros1.png" alt="" class="imgNosotros1">
     </div>
 
@@ -82,9 +93,23 @@
       $(window).scroll(function() {
         if ($("#menu1").offset().top > 750) {
             $("#menu1").addClass("buttomNav2"); 
-        } 
+        }
         else {
             $("#menu1").removeClass("buttomNav2");
+        }
+      });
+    </script>
+    <script>
+      $(window).scroll(function() {
+        if ($("#menu1").offset().top > 1500) {
+            $("#menu1").removeClass("buttomNav2"); 
+        }
+      });
+    </script>
+    <script>
+      $(window).scroll(function() {
+        if ($("#menu1").offset().top > 2250) {
+            $("#menu1").addClass("buttomNav2"); 
         }
       });
     </script>
@@ -97,6 +122,20 @@
             $("#menu2").removeClass("buttomNav2");
         }
       });
+    </script>
+    <script>
+      $(window).scroll(function() {
+        if ($("#menu2").offset().top > 1500) {
+            $("#menu2").removeClass("buttomNav2"); 
+        }
+      });
+    </script>
+    <script>
+      $(window).scroll(function() {
+        if ($("#menu2").offset().top > 2250) {
+            $("#menu2").addClass("buttomNav2"); 
+        }
+      });
     </script> 
     <script>
       $(window).scroll(function() {
@@ -105,6 +144,20 @@
         }
         else {
             $("#menu3").removeClass("buttomNav2");
+        }
+      });
+    </script>
+    <script>
+      $(window).scroll(function() {
+        if ($("#menu3").offset().top > 1500) {
+            $("#menu3").removeClass("buttomNav2"); 
+        }
+      });
+    </script>
+    <script>
+      $(window).scroll(function() {
+        if ($("#menu3").offset().top > 2250) {
+            $("#menu3").addClass("buttomNav2"); 
         }
       });
     </script> 
@@ -120,11 +173,32 @@
     </script>
     <script>
       $(window).scroll(function() {
+        if ($("#menu4").offset().top > 1500) {
+            $("#menu4").removeClass("buttomNav2"); 
+        }
+      });
+    </script>
+    <script>
+      $(window).scroll(function() {
+        if ($("#menu4").offset().top > 2250) {
+            $("#menu4").addClass("buttomNav2"); 
+        }
+      });
+    </script>
+    <script>
+      $(window).scroll(function() {
         if ($("#container").offset().top > 695.5) {
             $("#container").addClass("container2");
         }
         else {
             $("#container").removeClass("container2");
+        }
+      });
+    </script>
+    <script>
+      $(window).scroll(function() {
+        if ($("#container").offset().top > 1445.5) {
+            $("#container").removeClass("container2"); 
         }
       });
     </script>
