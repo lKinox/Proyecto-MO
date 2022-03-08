@@ -148,7 +148,7 @@ a:hover {
     display: flex;
     z-index: 0;
     position: relative;
-    margin-top: -280px;
+    margin-top: -270px;
 }
 
 .imgInfo2 {
@@ -165,7 +165,7 @@ a:hover {
     font-weight: 800;
     letter-spacing: -0.9px;
     background: #ccc;
-    background: linear-gradient(90deg, rgb(22,22,22), rgb(105, 9, 247), rgb(21,6,108), rgb(247, 58, 0));
+    background: linear-gradient(90deg, rgb(22,22,22), rgb(105, 9, 247), rgb(21,6,108), rgb(255, 89, 39));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     z-index: 1;
@@ -209,9 +209,130 @@ a:hover {
 
 /** NOSOTROS */
 
+.nosotros {
+    background: #FFF;
+    height: 750px;
+}
+
 .imgNosotros1 {
     width: 100%;
     display: flex;
     z-index: 0;
+    position: absolute;
+    margin-top: 0px;
+}
+
+.imgNosotros2 {
+    width: 90%;
+    z-index: 2;
     position: relative;
+    margin-top: 185px !important;
+}
+
+.textNosotros {
+    position: relative;
+    z-index: 2;
+    margin-left: -30px !important;
+    margin-top: 185px !important;
+}
+
+.textNosotros1 {
+    font-family: Barlow;
+    color: #FFF;
+    font-size: 25pt;
+    font-weight: 600;
+}
+
+.textNosotros2 {
+    font-family: Barlow;
+    letter-spacing: -0.5px;
+    color: #FFF;
+    font-size: 19pt;
+    font-weight: 600;
+}
+
+.textNosotros3 {
+    font-family: Barlow;
+    color: #FFF;
+    font-size: 16.5pt;
+    font-weight: 600;
+    margin-top: 5px !important;
+}
+
+.barra1 {
+    font-family: Barlow;
+    font-size: 30pt;
+    font-weight: 600;
+    z-index: 1;
+    position: relative;
+    margin-top: 60px !important;
+    background-color: rgb(50, 0, 64, 0.471);
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 5px !important;
+    box-shadow: 0px 20px  20px rgba(0, 0, 0, 0.356);
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-width: 87px;
+    border-right-width: 87px;
+    border-left-color: linear-gradient(90deg, rgb(21, 0, 139) 0%, rgb(247,58,0) 100%) !important;
+    border-right-color:  linear-gradient(90deg, rgb(21, 0, 139) 0%, rgb(247,58,0) 100%);
+}
+
+.textNosotros4 {
+    font-family: Barlow;
+    color: #FFF;
+    font-size: 18pt;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 65px !important;
+    z-index: 1;
+}
+
+.textNosotros5 {
+    font-family: Barlow;
+    color: #FFF;
+    font-size: 17.8pt;
+    font-weight: 800;
+    text-align: center;
+    margin-top: -3px !important;
+    position: relative;
+    z-index: 1;
+}
+
+.dec1 {
+    background-color: #FFF;
+    height: 3px;
+    z-index: 1;
+    margin-top: -25px !important;
+}
+
+.dec2 {
+    background-color: #FFF;
+    height: 3px;
+    margin-right: 0px;
+    z-index: 1;
+    margin-top: -25px !important;
+}
+
+/** FINAL */
+
+.fondoFinal {
+    background: #FFF;
+    height: 750px;
+}
+
+.finalText1 {
+    font-family: Barlow;
+    font-size: 37.9pt;
+    font-weight: 800;
+    letter-spacing: -0.9px;
+    text-align: center;
+    background: #ccc;
+    background: linear-gradient(90deg, rgb(105, 9, 247) 10%, rgb(21,6,108) 50%, rgb(255, 60, 0) 80%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    z-index: 1;
+}
 }
