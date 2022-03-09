@@ -81,6 +81,7 @@ a:hover {
 
 .img1 {
     width: 100%;
+    height: 750px;
     display: flex;
     z-index: 0;
     position: relative;
@@ -216,6 +217,7 @@ a:hover {
 
 .imgNosotros1 {
     width: 100%;
+    height: 750px;
     display: flex;
     z-index: 0;
     position: absolute;
@@ -373,6 +375,7 @@ a:hover {
 
 .imgContacto {
     width: 100%;
+    height: 750px;
     display: flex;
     z-index: 0;
     position: absolute;
