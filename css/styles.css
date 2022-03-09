@@ -323,16 +323,68 @@ a:hover {
     height: 750px;
 }
 
+.marFinal {
+    margin-left: 13px !important;
+    margin-right: 13px !important;
+}
+
 .finalText1 {
     font-family: Barlow;
-    font-size: 37.9pt;
+    font-size: 35pt;
     font-weight: 800;
-    letter-spacing: -0.9px;
+    letter-spacing: 0.5px;
     text-align: center;
     background: #ccc;
-    background: linear-gradient(90deg, rgb(105, 9, 247) 10%, rgb(21,6,108) 50%, rgb(255, 60, 0) 80%);
+    background: linear-gradient(90deg, rgb(105, 9, 247) 30%, rgb(21,6,108) 50%, rgb(255, 60, 0) 80%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    margin-top: 150px !important;
     z-index: 1;
 }
+
+.imgFinal {
+    width: 85%;
+    margin-top: 30px !important;
+}
+
+.imgFinalEsp {
+    text-align: center;
+}
+
+.textFinal1 {
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 18pt;
+    line-height: 27px;
+    text-align: left;
+    margin-top: 70px !important;
+}
+
+.textFinal2 {
+    font-family: Barlow;
+    font-weight: 500;
+    font-size: 18pt;
+    line-height: 27px;
+    text-align: right;
+    margin-top: 50px !important;
+}
+
+/** CONTACTO */
+
+.imgContacto {
+    width: 100%;
+    display: flex;
+    z-index: 0;
+    position: absolute;
+    margin-top: 0px;
+}
+
+.textContacto1 {
+    font-family: Barlow;
+    font-weight: 700;
+    font-size: 50pt;
+    color:#FFF;
+    z-index: 1;
+    text-align: center;
+    margin-top: 150px !important;
 }

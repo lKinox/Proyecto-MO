@@ -9,7 +9,7 @@
     <link href="css\bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -113,16 +113,37 @@
 
     <div>
       <div class="container fondoFinal">
-        <div class="row">
+        <div class="row marFinal">
           <div class="col-12 finalText1">¡Y es por eso que nace Mundo Octopus!</div>
-          <div class="col-2"></div>
-          <div class="col-10"></div>
-          <div class="col-10"></div>
-          <div class="col-2"></div>
+          <div class="col-4 imgFinalEsp">
+            <img src="img\final1.jpg" alt="" class="imgFinal">
+          </div>
+          <div class="col-8 textFinal1">Sí, ya sabemos... nuestro nombre te recuerda a un pulpo, pero<br>
+                              la verdad es que esa es la manera en la que vemos a nuestro<br>
+                              equipo de trabajo, porque metemos los tentáculos en todos los<br>
+                              rincones de la publicidad para <b>ayudar a tu negocio a generar<br>
+                              impacto relevante en la vida de tus clientes.</b></div>
+          <div class="col-8 textFinal2">Somos jóvenes apasionados por crear ideas y creer en el poder<br>
+                              de la innovación. <b>Nuestro propósito es que nuestros<br>
+                              conocimientos en materia de marketing digital impulsen a tu<br> 
+                              marca</b>, logren una buena difusión, obtenga un buen<br>
+                              índice de recordación y presencia en los medios.</div>
+          <div class="col-4 imgFinalEsp">
+            <img src="img\final2.jpg" alt="" class="imgFinal"> 
+          </div>
         </div>
       </div>
     </div>
 
+    <!-- CONTACTO -->
+    <div>
+      <img src="img\contacto1.png" alt="" class="imgContacto">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 textContacto1">¡Te ofrecemos estos servicios!</div>
+        </div>
+      </div>
+    </div>
 
     <!-- SCRIPTS -->
     <script src="js/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -154,6 +175,13 @@
     </script>
     <script>
       $(window).scroll(function() {
+        if ($("#menu1").offset().top > 3000) {
+            $("#menu1").removeClass("buttomNav2"); 
+        }
+      });
+    </script>
+    <script>
+      $(window).scroll(function() {
         if ($("#menu2").offset().top > 750) {
             $("#menu2").addClass("buttomNav2");
         } 
@@ -173,6 +201,13 @@
       $(window).scroll(function() {
         if ($("#menu2").offset().top > 2250) {
             $("#menu2").addClass("buttomNav2"); 
+        }
+      });
+    </script>
+    <script>
+      $(window).scroll(function() {
+        if ($("#menu2").offset().top > 3000) {
+            $("#menu2").removeClass("buttomNav2"); 
         }
       });
     </script> 
@@ -197,6 +232,13 @@
       $(window).scroll(function() {
         if ($("#menu3").offset().top > 2250) {
             $("#menu3").addClass("buttomNav2"); 
+        }
+      });
+    </script>
+    <script>
+      $(window).scroll(function() {
+        if ($("#menu3").offset().top > 3000) {
+            $("#menu3").removeClass("buttomNav2"); 
         }
       });
     </script> 
@@ -226,6 +268,13 @@
     </script>
     <script>
       $(window).scroll(function() {
+        if ($("#menu4").offset().top > 3000) {
+            $("#menu4").removeClass("buttomNav2"); 
+        }
+      });
+    </script>
+    <script>
+      $(window).scroll(function() {
         if ($("#container").offset().top > 695.5) {
             $("#container").addClass("container2");
         }
@@ -242,19 +291,18 @@
       });
     </script>
     <script>
-        $(function() {
-        // esta parte es la que controla cuando se mueve el scroll y ejecuta una función
-          $(document).scroll(function() {
-        // aca se pregunta si el scroll se movio de pa bajo.
-            if ($(this).scrollTop() > 750) {
-        // esta parte cambia el atributo "src" de la etiqueta "img" 
-                $('#logo').attr('src', 'img\Logo2.png')
-            }
-            if ($(this).scrollTop() < 750) {
-                $('#logo').attr('src', 'img\Logo1.png');
-            }
-        });
+      $(window).scroll(function() {
+        if ($("#container").offset().top > 2195.5) {
+            $("#container").addClass("container2"); 
+        }
       });
-    </script>  
+    </script>
+    <script>
+      $(window).scroll(function() {
+        if ($("#container").offset().top > 2945.5) {
+            $("#container").removeClass("container2"); 
+        }
+      });
+    </script>
 </body>
 </html>
