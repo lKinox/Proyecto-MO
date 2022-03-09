@@ -17,6 +17,11 @@ body {
     margin-right: 1.2cm;
 }
 
+.navbar-toggler {
+    color:#FFF !important;
+    border-color: #FFF !important;
+}
+
 a {
     color: rgb(196, 196, 196);
 }
@@ -25,34 +30,35 @@ a:hover {
     color: rgb(136, 136, 136) !important;
 }
 
+
 .buttomNav {
     font-family: Barlow;
     font-size: 15pt;
     letter-spacing: 3px;
-    color: #FFF;
+    color: #FFF !important;
     background-color: transparent;
     margin-left: 0.5cm;
     padding-top: 0.1px !important;
     padding-bottom: 0.1px !important;
     border-color: rgb(255, 255, 255);
-    border-width: 1px;
+    border-width: 1px !important;
     border-style: solid;
-    border-radius: 35px;
+    border-radius: 35px !important;
 }
 
 .buttomNav2 {
     font-family: Barlow;
     font-size: 15pt;
     letter-spacing: 3px;
-    color: #000;
+    color: #000 !important;
     background-color: rgba(255,255,255,1);
     margin-left: 0.5cm;
     padding-top: 0.1px !important;
     padding-bottom: 0.1px !important;
     border-color: #000;
-    border-width: 1px;
+    border-width: 1px !important;
     border-style: solid;
-    border-radius: 35px;
+    border-radius: 35px !important;
 }
 
 .container1 {
@@ -390,4 +396,33 @@ a:hover {
     z-index: 1;
     text-align: center;
     margin-top: 150px !important;
+}
+
+@media screen and (max-width: 1000px) {
+
+    /** NAVBAR */
+
+    .buttomNav {
+        font-family: Barlow;
+        font-size: 15pt;
+        letter-spacing: 3px;
+        color: #FFF !important;
+        background-color: transparent;
+        margin-left: 0.5cm;
+        padding-top: 0.1px !important;
+        padding-bottom: 0.1px !important;
+        border: none !important;
+    }
+    
+    .buttomNav2 {
+        font-family: Barlow;
+        font-size: 15pt;
+        letter-spacing: 3px;
+        color: #000 !important;
+        background-color: transparent;
+        margin-left: 0.5cm;
+        padding-top: 0.1px !important;
+        padding-bottom: 0.1px !important;
+        
+    }
 }
